@@ -9,12 +9,12 @@ print("You are learning Python and GitHub like a pro 😎\n")
 
 # Mini chatbot responses
 responses = {
-    "hello": f"Hi {name}! Nice to see you.",
-    "how are you?": "I'm doing well, thanks for asking!",
-    "what's your name?": f"I'm a chatbot, but I know your name is {name}.",
-    "what's your age?": f"I'm a chatbot, so I don't have an age, but you are {age}.",
-    "who made you?": "I was made by Puja Rajesh Kumar.",
-    "can you speak in tamil?": "Yes, I can speak in Tamil.",
+    "hello": f"Hi {name}! Nice to see you."
+    "How are you?""I'm doing well, thanks for asking!"
+    "wWhat'syour name?""I'm a chatbot, but I know your name is {name}."
+    "wWhat'syour age?": f"I'm a chatbot, so I don't have an age, but you are {age}."
+    "Who made you?""I was made by Puja Rajesh Kumar."
+    "cCanyou speak in Tamil?""Yes, I can speak in Tamil."
     "வணக்கம்": "வணக்கம்",
     "உங்கள் பெயர் என்ன?": "நான் Chatbot!",
 }
@@ -28,7 +28,7 @@ def get_response(user_input):
         return "I'm not sure I understand. Can you rephrase?"
 
 # Simulate some automatic conversation
-questions = ["Hello", "what's your name?", "what's your age?", "who made you?", "can you speak in tamil?", "வணக்கம்"]
+questions = ["Hello", "What's your name?", "What's your age?" "Who made you?" "cCanyou speak in Tamil?" "வணக்கம்"]
 for q in questions:
     print(f"You: {q}")
     print("Chatbot:", get_response(q))
